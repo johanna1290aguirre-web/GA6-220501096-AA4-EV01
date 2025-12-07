@@ -1,0 +1,277 @@
+﻿!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnicas de Aprendizaje Acelerado - Neurociencia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+        
+        .tutorial-index {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .tutorial-index h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .tutorial-index ol {
+            padding-left: 30px;
+        }
+        
+        .tutorial-index li {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+            background: #f8f9fa;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .tutorial-index a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .tutorial-index a:hover {
+            color: #3498db;
+        }
+        
+        .tema {
+            background: white;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .tema h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .contenido-tema {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        
+        .imagen-tema {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .imagen-tema img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .descripcion-tema {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .descripcion-tema p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+        
+        .boton-volver {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        .boton-volver:hover {
+            background: #2980b9;
+        }
+        
+        @media (max-width: 768px) {
+            .contenido-tema {
+                flex-direction: column;
+            }
+            
+            .imagen-tema, .descripcion-tema {
+                min-width: 100%;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Técnicas de Aprendizaje Acelerado</h1>
+            <p class="subtitle">Basadas en la Neurociencia y Métodos Científicos</p>
+        </header>
+        
+        <section class="tutorial-index">
+            <h2>Índice del Tutorial</h2>
+            <ol>
+                <li><a href="#tema1">El Cerebro que Aprende - Neuroplasticidad</a></li>
+                <li><a href="#tema2">Técnica Feynman - Aprender Enseñando</a></li>
+                <li><a href="#tema3">Espaciamiento Repetitivo</a></li>
+                <li><a href="#tema4">Aprendizaje Activo vs Pasivo</a></li>
+                <li><a href="#tema5">Mindfulness para el Estudio</a></li>
+            </ol>
+        </section>
+        
+        <section id="tema1" class="tema">
+            <h2>1. El Cerebro que Aprende - Neuroplasticidad</h2>
+            <div class="contenido-tema">
+                <div class="imagen-tema">
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Cerebro y neuroplasticidad">
+                </div>
+                <div class="descripcion-tema">
+                    <p>La neuroplasticidad es la capacidad del cerebro para reorganizarse y formar nuevas conexiones neuronales a lo largo de toda la vida. Contrario a la creencia popular, nuestro cerebro no es estático sino que se modifica con cada experiencia de aprendizaje.</p>
+                    <p>Cuando aprendemos algo nuevo, las neuronas crean nuevas sinapsis (conexiones). Con la práctica repetida, estas conexiones se fortalecen, haciendo que la información se consolide en la memoria a largo plazo.</p>
+                    <p><strong>Aplicación práctica:</strong> Estudia en sesiones cortas pero frecuentes para aprovechar la neuroplasticidad. 25-30 minutos de estudio concentrado seguidos de 5 minutos de descanso es el ciclo ideal.</p>
+                    <a href="#" class="boton-volver">Volver al Índice</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tema2" class="tema">
+            <h2>2. Técnica Feynman - Aprender Enseñando</h2>
+            <div class="contenido-tema">
+                <div class="imagen-tema">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Técnica Feynman">
+                </div>
+                <div class="descripcion-tema">
+                    <p>Desarrollada por el físico Richard Feynman, premio Nobel, esta técnica se basa en la idea de que la mejor manera de aprender algo es intentar enseñárselo a alguien más de manera simple.</p>
+                    <p>El método consta de 4 pasos: 1) Elegir un concepto, 2) Explicarlo como si se lo enseñaras a un niño, 3) Identificar las lagunas en tu comprensión, 4) Revisar y simplificar.</p>
+                    <p><strong>Aplicación práctica:</strong> Después de estudiar un tema, toma una hoja en blanco y escribe una explicación tan simple que hasta un niño de 12 años podría entenderla. Esto revelará inmediatamente qué partes no dominas completamente.</p>
+                    <a href="#" class="boton-volver">Volver al Índice</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tema3" class="tema">
+            <h2>3. Espaciamiento Repetitivo</h2>
+            <div class="contenido-tema">
+                <div class="imagen-tema">
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Espaciamiento repetitivo">
+                </div>
+                <div class="descripcion-tema">
+                    <p>Basado en la "curva del olvido" de Ebbinghaus, esta técnica demuestra que recordamos mejor cuando distribuimos el estudio en el tiempo en lugar de hacer maratones de estudio.</p>
+                    <p>La ciencia muestra que revisar información en intervalos crecientes (1 día, 3 días, 1 semana, 2 semanas, 1 mes) aumenta significativamente la retención a largo plazo.</p>
+                    <p><strong>Aplicación práctica:</strong> Usa la regla 1-3-7-21: Repasa el material después de 1 día, luego 3 días, 7 días y finalmente 21 días. Esta secuencia optimiza la consolidación en la memoria.</p>
+                    <a href="#" class="boton-volver">Volver al Índice</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tema4" class="tema">
+            <h2>4. Aprendizaje Activo vs Pasivo</h2>
+            <div class="contenido-tema">
+                <div class="imagen-tema">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Aprendizaje activo">
+                </div>
+                <div class="descripcion-tema">
+                    <p>El aprendizaje pasivo (leer, subrayar, escuchar) tiene una eficacia del 10-30%, mientras que el aprendizaje activo (practicar, enseñar, aplicar) alcanza el 70-90% de eficacia.</p>
+                    <p>Métodos pasivos como subrayar crean una ilusión de competencia - crees que sabes el material porque lo has visto muchas veces, pero realmente no puedes recuperarlo cuando lo necesitas.</p>
+                    <p><strong>Aplicación práctica:</strong> En lugar de solo leer, hazte preguntas, resuelve problemas, crea mapas mentales, o explica el concepto en voz alta. La recuperación activa de información fortalece las vías neuronales.</p>
+                    <a href="#" class="boton-volver">Volver al Índice</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tema5" class="tema">
+            <h2>5. Mindfulness para el Estudio</h2>
+            <div class="contenido-tema">
+                <div class="imagen-tema">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Mindfulness">
+                </div>
+                <div class="descripcion-tema">
+                    <p>La práctica de mindfulness mejora la atención, reduce el estrés y aumenta la capacidad de retención de información. Estudios de neuroimagen muestran que modifica físicamente la estructura cerebral.</p>
+                    <p>La meditación regular aumenta el grosor de la corteza prefrontal, responsable de funciones ejecutivas como la atención y la toma de decisiones, mientras reduce la actividad de la amígdala, centro del miedo y el estrés.</p>
+                    <p><strong>Aplicación práctica:</strong> Antes de estudiar, realiza 5 minutos de respiración consciente. Durante el estudio, cuando notes que tu mente divaga, simplemente reconócelo sin juzgar y vuelve suavemente al material.</p>
+                    <a href="#" class="boton-volver">Volver al Índice</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            for (const link of links) {
+                link.addEventListener('click', function(e) {
+                    if (this.getAttribute('href') !== '#') {
+                        e.preventDefault();
+                        
+                        const targetId = this.getAttribute('href');
+                        const targetElement = document.querySelector(targetId);
+                        
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 20,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
